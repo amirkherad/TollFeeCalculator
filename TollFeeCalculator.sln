@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TollFeeCalculator.Presentat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TollFeeCalculator.Application", "TollFeeCalculator.Application\TollFeeCalculator.Application.csproj", "{450E633C-C38E-48E5-8B0D-38BC92580395}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TollFeeCalculator.Infrastructure", "TollFeeCalculator.Infrastructure\TollFeeCalculator.Infrastructure.csproj", "{3A958010-A2BE-4069-907E-8ABB5CF46790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TollFeeCalculator.Domain", "TollFeeCalculator.Domain\TollFeeCalculator.Domain.csproj", "{33A0D629-BB30-4C03-8ACC-8CCDFFFA41DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +26,19 @@ Global
 		{450E633C-C38E-48E5-8B0D-38BC92580395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{450E633C-C38E-48E5-8B0D-38BC92580395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{450E633C-C38E-48E5-8B0D-38BC92580395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A958010-A2BE-4069-907E-8ABB5CF46790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A958010-A2BE-4069-907E-8ABB5CF46790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A958010-A2BE-4069-907E-8ABB5CF46790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A958010-A2BE-4069-907E-8ABB5CF46790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A0D629-BB30-4C03-8ACC-8CCDFFFA41DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A0D629-BB30-4C03-8ACC-8CCDFFFA41DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A0D629-BB30-4C03-8ACC-8CCDFFFA41DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A0D629-BB30-4C03-8ACC-8CCDFFFA41DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{27DAB4D5-6E22-468D-AB75-382F94BA122B} = {6B986934-559C-46BA-BCD4-0558A886784C}
 		{450E633C-C38E-48E5-8B0D-38BC92580395} = {6B986934-559C-46BA-BCD4-0558A886784C}
+		{3A958010-A2BE-4069-907E-8ABB5CF46790} = {6B986934-559C-46BA-BCD4-0558A886784C}
+		{33A0D629-BB30-4C03-8ACC-8CCDFFFA41DF} = {6B986934-559C-46BA-BCD4-0558A886784C}
 	EndGlobalSection
 EndGlobal

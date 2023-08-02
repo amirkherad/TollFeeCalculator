@@ -12,13 +12,18 @@
       <PackageReference Include="AutoMapper" Version="12.0.1" />
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
       <PackageReference Include="Dapper" Version="2.0.143" />
-      <PackageReference Include="MediatR" Version="12.1.1" />
       <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
     </ItemGroup>
 
 
 
 
+
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\TollFeeCalculator.Infrastructure\TollFeeCalculator.Infrastructure.csproj" />
+    </ItemGroup>
 
 
 

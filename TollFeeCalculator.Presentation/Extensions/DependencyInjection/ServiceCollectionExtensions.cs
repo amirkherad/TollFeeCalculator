@@ -1,4 +1,5 @@
 ﻿using TollFeeCalculator.Application.Shared.Extensions.DependencyInjection;
+using TollFeeCalculator.Infrastructure.Shared.Extensions.DependencyInjection;
 
 namespace TollFeeCalculator.Presentation.Extensions.DependencyInjection;
 
@@ -18,6 +19,11 @@ public static class ServiceCollectionExtensions
             .AddEndpointsApiExplorer()
             .AddSwaggerDocumentation()
             .AddDomainServices()
+            .AddUnitOfWork()
+            .AddConnectionStrings()
+            .AddDbContext()
+            .AddDomainEventsDispatcher()
+            .AddDomainRepositories()
             ;
         
         return services;
