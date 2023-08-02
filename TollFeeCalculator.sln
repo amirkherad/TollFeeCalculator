@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceCodes", "SourceCodes", "{6B986934-559C-46BA-BCD4-0558A886784C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C9237EBA-CEEA-4280-A9BB-293EFB3FDA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TollFeeCalculator.Presentation", "TollFeeCalculator.Presentation\TollFeeCalculator.Presentation.csproj", "{27DAB4D5-6E22-468D-AB75-382F94BA122B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27DAB4D5-6E22-468D-AB75-382F94BA122B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DAB4D5-6E22-468D-AB75-382F94BA122B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DAB4D5-6E22-468D-AB75-382F94BA122B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DAB4D5-6E22-468D-AB75-382F94BA122B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27DAB4D5-6E22-468D-AB75-382F94BA122B} = {6B986934-559C-46BA-BCD4-0558A886784C}
+	EndGlobalSection
+EndGlobal
