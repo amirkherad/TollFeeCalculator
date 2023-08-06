@@ -18,13 +18,14 @@ public static class ServiceCollectionExtensions
         services
             .AddEndpointsApiExplorer()
             .AddSwaggerDocumentation()
-            .AddDomainServices()
-            .AddUnitOfWork()
-            .AddConnectionStrings()
-            .AddDbContext()
+            .AddAutoMapper()
             .AddDomainEventsDispatcher()
+            .AddConnectionStrings()
             .AddDomainRepositories()
-            ;
+            .AddUnitOfWork()
+            .AddDomainServices()
+            .AddMediatR()
+            .AddDbContext();
         
         return services;
     }
